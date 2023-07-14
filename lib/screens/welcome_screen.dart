@@ -1,6 +1,7 @@
 import 'package:flash_chat/screens/login_screen.dart';
 import 'package:flash_chat/screens/registration_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:animated_text_kit/animated_text_kit.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});
@@ -23,7 +24,8 @@ class WelcomeScreenState extends State<WelcomeScreen>
     controller =
         AnimationController(duration: const Duration(seconds: 1), vsync: this);
 
-    animation = ColorTween(begin: Colors.blueGrey, end: Colors.white).animate(controller);
+    animation = ColorTween(begin: Colors.blueGrey, end: Colors.white)
+        .animate(controller);
 
     controller.forward();
 
@@ -42,7 +44,7 @@ class WelcomeScreenState extends State<WelcomeScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:animation.value,
+      backgroundColor: animation.value,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(
@@ -58,12 +60,23 @@ class WelcomeScreenState extends State<WelcomeScreen>
                     child: Image.asset('images/logo.png'),
                   ),
                 ),
-                const Text(
-                  'Flash Chat',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 45.0,
-                    fontWeight: FontWeight.w900,
+                SizedBox(
+                  width: 250.0,
+                  child: DefaultTextStyle(
+                    style: const TextStyle(
+                      color: Colors.black,
+                      fontSize: 45.0,
+                      fontWeight: FontWeight.w900,
+                    ),
+                    child: AnimatedTextKit(
+                      animatedTexts: [
+                        TyperAnimatedText(
+                          'Flash Chat',
+                          speed: const Duration(milliseconds: 400),
+                        )
+                      ],
+                      repeatForever: true,
+                    ),
                   ),
                 ),
               ],
@@ -113,3 +126,13 @@ class WelcomeScreenState extends State<WelcomeScreen>
     );
   }
 }
+
+
+// AnimatedTextKit(animatedTexts: TypewriterAnimatedText(
+//                   ['Flash Chat'],
+//                   textStyle: TextStyle(
+//                     color: Colors.black,
+//                     fontSize: 45.0,
+//                     fontWeight: FontWeight.w900,
+//                   ),
+//                 ),),
