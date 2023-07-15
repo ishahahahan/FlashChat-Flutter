@@ -8,7 +8,9 @@ environment:
 
 dependencies:
   animated_text_kit: ^4.2.2
+  cloud_firestore: ^4.8.3
   cupertino_icons: ^1.0.5
+  firebase_auth: ^4.7.0
   firebase_core: ^2.15.0
   flutter:
     sdk: flutter
