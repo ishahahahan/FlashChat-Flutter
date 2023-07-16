@@ -1,6 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="Flash Chat"
+=======
+<<<<<<< HEAD
+        android:label="chat_app"
+=======
+        android:label="Flash Chat"
+>>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
+>>>>>>> master
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

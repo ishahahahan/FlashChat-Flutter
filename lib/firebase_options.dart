@@ -17,15 +17,24 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      throw UnsupportedError(
+        'DefaultFirebaseOptions have not been configured for web - '
+        'you can reconfigure this by running the FlutterFire CLI again.',
+      );
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -43,41 +52,11 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBuPmV_azYwD1JEGKJ_4eXXr9ssfieP9Ig',
-    appId: '1:385310320450:web:0104b18b07f77fcde7cadb',
-    messagingSenderId: '385310320450',
-    projectId: 'flash-chat-76ae9',
-    authDomain: 'flash-chat-76ae9.firebaseapp.com',
-    storageBucket: 'flash-chat-76ae9.appspot.com',
-    measurementId: 'G-RVWXW9RJFJ',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCCIasUGWFDU6t8uqXut2Xjn4-zvmnljYE',
-    appId: '1:385310320450:android:05a3d175986e4f60e7cadb',
-    messagingSenderId: '385310320450',
-    projectId: 'flash-chat-76ae9',
-    storageBucket: 'flash-chat-76ae9.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAeIeq81URTxhnxd-ghoZYHSGjqGOFPxPc',
-    appId: '1:385310320450:ios:c336d368bfad1bf0e7cadb',
-    messagingSenderId: '385310320450',
-    projectId: 'flash-chat-76ae9',
-    storageBucket: 'flash-chat-76ae9.appspot.com',
-    iosClientId: '385310320450-98ksvi7nsiv0i50l7601qam7ta1206ee.apps.googleusercontent.com',
-    iosBundleId: 'com.example.flashChat',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAeIeq81URTxhnxd-ghoZYHSGjqGOFPxPc',
-    appId: '1:385310320450:ios:530b7a000d14b7ebe7cadb',
-    messagingSenderId: '385310320450',
-    projectId: 'flash-chat-76ae9',
-    storageBucket: 'flash-chat-76ae9.appspot.com',
-    iosClientId: '385310320450-s5digfttnnltlde75q1lidguoci4kaab.apps.googleusercontent.com',
-    iosBundleId: 'com.example.flashChat.RunnerTests',
+    apiKey: 'AIzaSyAdgz25ZdeWJn3K_gcBgODsIwk3Bp33hFw',
+    appId: '1:565417586079:android:4ad1e5513f64a07a6d61aa',
+    messagingSenderId: '565417586079',
+    projectId: 'flash-chat-3ec89',
+    storageBucket: 'flash-chat-3ec89.appspot.com',
   );
 }

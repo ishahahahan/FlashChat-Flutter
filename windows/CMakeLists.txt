@@ -1,10 +1,24 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+project(chat_app LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "chat_app")
+=======
+>>>>>>> master
 project(flash_chat LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "flash_chat")
+<<<<<<< HEAD
+=======
+>>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
+>>>>>>> master
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
