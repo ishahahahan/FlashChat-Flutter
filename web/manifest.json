@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "chat_app",
     "short_name": "chat_app",
+=======
+    "name": "flash_chat",
+    "short_name": "flash_chat",
+>>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
