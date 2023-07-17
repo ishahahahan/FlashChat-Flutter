@@ -63,8 +63,6 @@ class RegistrationScreenState extends State<RegistrationScreen> {
             RoundedButton(
                 buttonText: 'Register',
                 onPress: () async {
-                  // print(email);
-                  // print(password);
                   try {
                     final newUser = await _auth.createUserWithEmailAndPassword(
                         email: email, password: password);
