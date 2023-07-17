@@ -1,92 +1,34 @@
 {
   "project_info": {
-<<<<<<< HEAD
-    "project_number": "385310320450",
-    "project_id": "flash-chat-76ae9",
-    "storage_bucket": "flash-chat-76ae9.appspot.com"
-=======
-<<<<<<< HEAD
     "project_number": "962710494479",
     "project_id": "flash-chat-9447a",
     "storage_bucket": "flash-chat-9447a.appspot.com"
-=======
-    "project_number": "385310320450",
-    "project_id": "flash-chat-76ae9",
-    "storage_bucket": "flash-chat-76ae9.appspot.com"
->>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
->>>>>>> master
   },
   "client": [
     {
       "client_info": {
-<<<<<<< HEAD
-        "mobilesdk_app_id": "1:385310320450:android:05a3d175986e4f60e7cadb",
-        "android_client_info": {
-          "package_name": "com.ishandas.flash_chat"
-=======
-<<<<<<< HEAD
-        "mobilesdk_app_id": "1:962710494479:android:9494c9f6680ecbbf31f27a",
+        "mobilesdk_app_id": "1:962710494479:android:4871fa502719c05131f27a",
         "android_client_info": {
           "package_name": "com.example.chat_app"
-=======
-        "mobilesdk_app_id": "1:385310320450:android:05a3d175986e4f60e7cadb",
-        "android_client_info": {
-          "package_name": "com.ishandas.flash_chat"
->>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
->>>>>>> master
         }
       },
       "oauth_client": [
         {
-<<<<<<< HEAD
-          "client_id": "385310320450-b7qejeg8gd4kvjtonskulmr99itava2s.apps.googleusercontent.com",
-=======
-<<<<<<< HEAD
           "client_id": "962710494479-4o2qipka5eq968l1p58a6jsuf5qclkkv.apps.googleusercontent.com",
-=======
-          "client_id": "385310320450-b7qejeg8gd4kvjtonskulmr99itava2s.apps.googleusercontent.com",
->>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
->>>>>>> master
           "client_type": 3
         }
       ],
       "api_key": [
         {
-<<<<<<< HEAD
-          "current_key": "AIzaSyCCIasUGWFDU6t8uqXut2Xjn4-zvmnljYE"
-=======
-<<<<<<< HEAD
           "current_key": "AIzaSyBnRhUi3YOwmReOHx_LK7VhVaBgH8OIgOE"
-=======
-          "current_key": "AIzaSyCCIasUGWFDU6t8uqXut2Xjn4-zvmnljYE"
->>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
->>>>>>> master
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
               "client_id": "962710494479-4o2qipka5eq968l1p58a6jsuf5qclkkv.apps.googleusercontent.com",
               "client_type": 3
-=======
->>>>>>> master
-              "client_id": "385310320450-b7qejeg8gd4kvjtonskulmr99itava2s.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "385310320450-98ksvi7nsiv0i50l7601qam7ta1206ee.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.flashChat"
-              }
-<<<<<<< HEAD
-=======
->>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
->>>>>>> master
             }
           ]
         }
