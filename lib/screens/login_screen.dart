@@ -76,10 +76,11 @@ class LoginScreenState extends State<LoginScreen> {
                           email: email, password: password);
                       Navigator.pushNamed(context, ChatScreen.id);
                       setState(() {
-                        showSpinner = false;  
+                        showSpinner = false;
                       });
                     } catch (e) {
                       print(e);
+                      showSpinner = false;
                     }
                   },
                   colour: Colors.lightBlueAccent)
