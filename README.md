@@ -1,6 +1,5 @@
 # FlashChat-Flutter
 
-![FlashChat Banner](banner.png)
 
 FlashChat-Flutter is a real-time messaging app built using Flutter and Firebase. It allows users to chat with each other in real-time, send text messages. This is a learning app which was made during the completion of the Firebase integration module of the course "The Complete Flutter Bootcamp with Dart" by Angela Yu.
 
@@ -10,12 +9,6 @@ FlashChat-Flutter is a real-time messaging app built using Flutter and Firebase.
 
 - *Authentication:* The app supports user authentication using email and password.
 
-
-## Screenshots
-
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
 
 ## Getting Started
 
