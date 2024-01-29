@@ -16,10 +16,14 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
 <<<<<<< HEAD
+               BuildableName = "flash_chat.app"
+=======
+<<<<<<< HEAD
                BuildableName = "chat_app.app"
 =======
                BuildableName = "flash_chat.app"
 >>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
+>>>>>>> master
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -36,10 +40,14 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
 <<<<<<< HEAD
+            BuildableName = "flash_chat.app"
+=======
+<<<<<<< HEAD
             BuildableName = "chat_app.app"
 =======
             BuildableName = "flash_chat.app"
 >>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
+>>>>>>> master
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -74,10 +82,14 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
 <<<<<<< HEAD
+            BuildableName = "flash_chat.app"
+=======
+<<<<<<< HEAD
             BuildableName = "chat_app.app"
 =======
             BuildableName = "flash_chat.app"
 >>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
+>>>>>>> master
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -95,10 +107,14 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
 <<<<<<< HEAD
+            BuildableName = "flash_chat.app"
+=======
+<<<<<<< HEAD
             BuildableName = "chat_app.app"
 =======
             BuildableName = "flash_chat.app"
 >>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
+>>>>>>> master
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>

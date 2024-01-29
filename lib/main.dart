@@ -1,10 +1,10 @@
-import 'package:chat_app/screens/welcome_screen.dart';
+import 'package:flash_chat/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:chat_app/screens/login_screen.dart';
-import 'package:chat_app/screens/registration_screen.dart';
-import 'package:chat_app/screens/chat_screen.dart';
+import 'package:flash_chat/screens/login_screen.dart';
+import 'package:flash_chat/screens/registration_screen.dart';
+import 'package:flash_chat/screens/chat_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:chat_app/firebase_options.dart';
+import 'package:flash_chat/firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -6,16 +6,22 @@
 
 // The application's name. By default this is also the title of the Flutter window.
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 PRODUCT_NAME = chat_app
 
 // The application's bundle identifier
 PRODUCT_BUNDLE_IDENTIFIER = com.example.chatApp
 =======
+>>>>>>> master
 PRODUCT_NAME = flash_chat
 
 // The application's bundle identifier
 PRODUCT_BUNDLE_IDENTIFIER = com.example.flashChat
+<<<<<<< HEAD
+=======
 >>>>>>> 3e40296fdd1364d04c02aecc41f31a193df87e96
+>>>>>>> master
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2023 com.example. All rights reserved.
