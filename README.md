@@ -1,3 +1,4 @@
+=======
 # FlashChat-Flutter
 
 
@@ -33,7 +34,6 @@ The following major dependencies are used in this project:
 - Firebase Auth: For user authentication and account management.
 
 - Modal Progress HUD: Used to show loading indicators.
-
 
 
 Thank you for checking out the FlashChat-Flutter repository! We hope you find it helpful for learning Flutter, Firebase integration, and real-time messaging app development. If you have any questions or feedback, don't hesitate to reach out. Happy coding! 🚀
